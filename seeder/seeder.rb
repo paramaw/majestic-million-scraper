@@ -1,6 +1,6 @@
 CSV.foreach("./seeder/majestic_million_small.csv",:headers => true) do |row|
     pages << {
-      url: "http://#{row['Domain']}",
+      url: "https://#{row['Domain']}",
       page_type: 'home',
     }
   
