@@ -1,7 +1,8 @@
 
 nokogiri = Nokogiri.HTML(content)
 
-title = nokogiri.at('title').try(:text)
+noko_title = nokogiri.at('title')
+title = noko_title.text unless noko_title.nil? 
 
 doc1 = {
     _collection: "home",
