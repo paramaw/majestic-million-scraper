@@ -1,5 +1,6 @@
 seeder:
-  file: ./seeder/seeder.rb  
+  file: ./seeder/seeder.rb
+  disabled: true
 parsers:
   - page_type: home
     file: ./parsers/home.rb
