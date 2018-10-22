@@ -13,4 +13,4 @@ doc1 = {
     content_size: page['content_size']
 }
 
-# outputs << doc1
+outputs << doc1
