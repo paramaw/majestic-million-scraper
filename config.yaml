@@ -4,4 +4,4 @@ seeder:
 parsers:
   - page_type: home
     file: ./parsers/home.rb
-    disabled: true
+    disabled: false
