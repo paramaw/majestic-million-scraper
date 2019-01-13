@@ -5,3 +5,12 @@ parsers:
   - page_type: home
     file: ./parsers/home.rb
     disabled: false
+exporters:
+  - exporter_name: home_json_pretty-
+    collection: home
+    exporter_type: json
+    write_mode: pretty_array
+  - exporter_name: home_json
+    exporter_type: json
+    collection: home
+    write_mode: array
