@@ -6,7 +6,7 @@ parsers:
     file: ./parsers/home.rb
     disabled: false
 exporters:
-  - exporter_name: home_json_pretty-
+  - exporter_name: home_json_pretty
     collection: home
     exporter_type: json
     write_mode: pretty_array
