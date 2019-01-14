@@ -14,3 +14,4 @@ exporters:
     exporter_type: json
     collection: home
     write_mode: array
+  - file: './exporters/home_csv.yaml'

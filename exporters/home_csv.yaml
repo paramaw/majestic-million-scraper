@@ -1,0 +1,14 @@
+exporter_name: home_csv
+collection: home
+exporter_type: csv
+fields:
+  - header: "gid"
+    path: "_gid"
+  - header: "url"
+    path: "url"
+  - header: "title"
+    path: "title"
+  - header: "content_type"
+    path: "content_type"
+  - header: "content_size"
+    path: "content_size"
