@@ -1,7 +1,8 @@
-CSV.foreach("./seeder/majestic_million.csv",:headers => true) do |row|
+CSV.foreach("./seeder/majestic_million_small.csv",:headers => true) do |row|
   pages << {
     url: "http://#{row['Domain']}",
     page_type: 'home',
+    freshness: Time.now.iso8601,
   }
 
   # Save pages to the job partially to not load everything into memory
